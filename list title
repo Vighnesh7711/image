@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           children: [
             ListTile(
               leading: Icon(Icons.person),
-              title: Text("Tejas"),
+              title: Text("Kunal"),
               subtitle: Text("Developer"),
               trailing: Icon(Icons.arrow_forward),
             ),
