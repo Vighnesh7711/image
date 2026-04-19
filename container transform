@@ -1,0 +1,33 @@
+import 'package:flutter/material.dart';
+import 'dart:math';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Container Transform Example"),
+        ),
+        body: Center(
+          child: Container(
+            height: 150,
+            width: 150,
+            color: Colors.orange,
+            transform: Matrix4.rotationZ(pi / 6), // Rotate 30 degrees
+            child: Center(
+              child: Text(
+                "Hello Tejas",
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
