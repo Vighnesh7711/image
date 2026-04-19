@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
               style: TextStyle(color: Colors.black, fontSize: 20),
               children: [
                 TextSpan(
-                  text: "Tejas ",
+                  text: "kunal ",
                   style: TextStyle(
                     color: Colors.blue,
                     fontWeight: FontWeight.bold,
